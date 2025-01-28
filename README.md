@@ -1,0 +1,3 @@
+# Unexpected Null Return in JavaScript Function
+
+This repository demonstrates a common JavaScript bug involving unexpected null returns when using loose equality checks. The `foo` function returns `null` if either input (`a` or `b`) is `null`, even if the other input is a valid number. This is due to the loose equality (`==`) comparison, which doesn't strictly check for type equivalence before comparison.  The solution demonstrates using the strict equality (`===`) operator to resolve the issue.
